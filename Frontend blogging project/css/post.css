@@ -1,0 +1,85 @@
+.blogTite {
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+.blogText {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.blogAuthor {
+    padding: 0px 0px 0px 10px;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+}
+.blogContent{
+
+}
+
+/* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
+#blogTitleNew{
+	margin-left: 550px;
+
+}
+
+.main-container{
+	margin: 50px 50px 50px 50px;
+	text-align: justify;
+}
+
+#edit{
+	float: right;
+	width: 7vw;
+	background-color:#ff007f;
+	box-shadow: 0px 4px 14px  -2px #ff007f;
+}
+
+#likeButton{
+	width: 9vw;
+	background-color:#ff007f;
+	box-shadow: 0px 4px 14px  -2px #ff007f;
+	padding : 10px 20px;
+}
+
+#addList{
+	width: 8vw;
+	background-color:#ff007f;
+	box-shadow: 0px 4px 14px  -2px #ff007f;
+	font-size: 16px;
+	padding: 10px;
+}
+
+#userComments
+{
+	height: 13vh;
+	width: 60vw;
+	padding: 0px;
+	margin-top: 0px;
+	resize: both;
+  	overflow: auto;
+  	font-size: 15px;
+}
+
+i{
+	font-weight: bold;
+}
+
+#commentHeading{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#addEventNames{
+	display: none;
+	background-color: rgb(220,220,220);
+    padding: 8px 25px;
+    color: white;
+    width: 58vw;
+
+}
+
+.commentContent{
+	background-color: white;
+	padding: 20px 13px;
+	color: black;
+}
