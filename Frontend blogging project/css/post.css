@@ -83,3 +83,12 @@ i{
 	padding: 20px 13px;
 	color: black;
 }
+
+#signBtn{
+	width: 7vw;
+	padding: 0px;
+	background-color: white;
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+}

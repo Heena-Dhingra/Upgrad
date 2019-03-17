@@ -2,7 +2,7 @@ function addComments(id){
         document.getElementById('addEventNames').style.display = "block";
         var addEventName = id.value +'<br>';
         var a = document.getElementById('userComments');
-        document.getElementById('addEventNames').innerHTML += '<p class="commentContent">'+addEventName+'</p>';          
+        document.getElementById('addEventNames').innerHTML = '<p class="commentContent">'+addEventName+'</p>'+ document.getElementById('addEventNames').innerHTML;          
         a.value=a.defaultValue;
     }
 like = 0;

@@ -74,7 +74,10 @@ body {
     height: 100%;
     width: 100%;
     display: inline-block;
-    
+    /*display: grid;*/
+    /*grid-gap: 5px;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, 800px);*/
 }
 label,h2{
     color: black;
@@ -148,4 +151,23 @@ color: black;
  h3{
     margin-bottom: 0px;
  }
+
+@media screen and (max-width: 1100px){
+    .post{
+        /*width: 14vw;*/
+        margin: 10px 12px 2px 50px;
+    }
+    #lastPost{
+        margin: 10px 5px 5px 212px ;
+    }
+}
+
+@media screen and (max-width: 200px){
+    .post{
+        /*width: 14vw;*/
+        margin: 3px 6px 1px -2px;
+        display: inline-block;
+    }
+}
+
   
